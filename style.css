@@ -17,6 +17,7 @@ body{
 
 .main-container{
     grid-column-start: 2;
+    background-color: red;
 }
 
 
@@ -35,8 +36,10 @@ h2{
     font-weight: bold;
     display: grid;
     background-color: rgba(25,146,212,255);
-    padding: 1rem;
-    grid-template-rows: auto auto 1fr;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
 .dashboard-1{
